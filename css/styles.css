@@ -754,9 +754,13 @@ img{
 
 .review-form-checkbox-wraper{
     margin-bottom: 24px;
+
+}
+.review-form-field-wrapper-textarea{
+    margin-bottom: 16px
 }
 
-.review-form-checkbox:checked .checkbox-label-span{
+.review-form-checkbox:checked + .checkbox-label-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
