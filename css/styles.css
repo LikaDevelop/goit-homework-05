@@ -769,7 +769,7 @@ img{
     margin-bottom: 16px
 }
 
-.review-form-checkbox:checked .checkbox-label-span{
+.review-form-checkbox:checked + .checkbox-label-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
