@@ -680,7 +680,7 @@ img{
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.48px;
     margin-bottom: 4px;
 }
@@ -703,8 +703,12 @@ img{
     fill: #4D5AE5;
 }
 
+.review-form-field:focus{
+    border-color: #4D5AE5;
+}
+
 .review-form-field-wrapper{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .review-form-input-wrapper{
@@ -776,6 +780,15 @@ img{
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.icon-ckeckbox{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-label-span:hover,
+.checkbox-label-span:focus{
+    fill: #ffffff;
 }
 
 .review-form-btn{
